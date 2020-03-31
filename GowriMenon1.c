@@ -4,6 +4,6 @@
 
 int main()
 {
-  printf(" Name \n Dept. \n College: ");
+  printf(" Gowri Menon \n Electronics & Communication Engg. \n College of Engineering,Chengannur ");
   return 0;
 }
