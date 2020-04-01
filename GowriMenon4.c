@@ -2,20 +2,16 @@
 
 void main()
 {
-  char name[20];
-  char school[100];
-  int age;
-  float height;
-  float marks;
-  printf("Name of the student:\n");
-  scanf("%s",&name);
-  printf("Name of the school:\n");
-  scanf("%s",&school);
-  printf("Age of the student:\n");
-  scanf("%d",&age);
-  printf("Height of the student(cm):\n");
-  scanf("%f",&height);
-  printf("Marks of the student:\n");
-  scanf("%f",&marks);
+  char name[]="Gowri Menon";
+  int age=20;
+  char class[]="EC B";
+  float height=160;
+  float marks=90;
+  printf("My name is %s \n",name);
+  printf("My age is %d \n",age);
+  printf("The class i am studying is %s \n",class);
+  printf("My height is %f \n",height);
+  printf("The marks is %f \n",marks);
+  
   getch();
 }
