@@ -1,21 +1,15 @@
 #include <stdio.h>
 int main()
 {
-   int n , i,j;
+   int i,n;
     
-    printf("Enter a Number ");
-    scanf("%d",&j);
-    for(n=j; n<=10; ++n)
-    {
-  
+    printf("Enter a Number less than 10: ");
+    scanf("%d",&n);
+ 
     for(i=1; i<=10; ++i)
     {
-   
-    printf("%d * %d = %d \n", n, i, n*i);
-   
-    }
-    
-    }
+     printf("%d * %d = %d \n", n, i, n*i);
+     }
     getch();
     
 }
